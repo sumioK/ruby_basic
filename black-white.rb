@@ -19,5 +19,13 @@ def make_field
   end
 
   #壁を作成
+  0.upto(MAX_COL - 1) do |i|
+    field[0][1] = WALL
+    field[MAX_COL - 1] = WALL
+  end
+  0.upto(MAX_ROW - 1) do |i|
+    field[i][0] = WALL
+      field[i][MAX_COL -1] = WALL
+  end
   
 end
