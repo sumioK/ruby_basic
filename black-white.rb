@@ -8,6 +8,8 @@ MAX_COL = 10
 def make_field
   field = []
 
+  #盤面の初期化
+  
   MAX_ROW.times do
     row = []
     MAX_COL.times do
@@ -15,4 +17,7 @@ def make_field
     end
     field << row
   end
+
+  #壁を作成
+  
 end
