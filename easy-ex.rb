@@ -55,3 +55,27 @@ else
 end
 
 # no.10
+for i in 1..10 do
+  puts "おはよう"
+end
+
+# no.11
+i = 0
+while i < 10
+  puts "こんにちは"
+  i += 1
+end
+
+# no.12
+10.times do |i|
+  puts i + 1
+end
+
+# no.13
+i = 1
+index = 0
+while i <= 100
+  index = index + i
+  i += 1
+end
+print index
