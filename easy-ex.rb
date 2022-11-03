@@ -100,3 +100,22 @@ puts index
 fruit = ["りんご","ぶどう","みかん"]
 p fruit
 
+# no.17
+fruit = ["りんご", "ぶどう", "みかん"]
+puts fruit[1]
+
+# no.18
+fruit = ["りんご", "ぶどう", "みかん"]
+fruit.each do |f|
+  puts f
+end
+
+# no.19
+score = [100, 200, 300]
+puts "合計点は#{score[0] + score[1] + score[2]}点です"
+puts "平均点は#{( score[0] + score[1] + score[2]) / score.length}点です"
+
+fruit_price = { "リンゴ": 100, "ぶどう": 200, "みかん": 300}
+fruit_price.each do |f|
+  puts f
+end
