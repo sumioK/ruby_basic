@@ -78,4 +78,25 @@ while i <= 100
   index = index + i
   i += 1
 end
-print index
+puts index
+
+# no.14
+for i in 1..100 do
+  if i %3 == 0
+    puts "3の倍数です"
+  else
+    puts i
+  end
+end
+
+# no.15
+index = 1
+10.times do
+index = index * 2
+end
+puts index
+
+# no.16
+fruit = ["りんご","ぶどう","みかん"]
+p fruit
+
